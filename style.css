@@ -1,4 +1,4 @@
-/* General Styles */
+/* Md. Jubayer Ahmed Jidny, ID: 2021086 */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -106,7 +106,8 @@ main {
 }
 
 .contact-info h2 {
-    color: #FFD700;
+    color: #ffb428;
+    text-decoration: none;
 }
 
 .images {
@@ -125,3 +126,48 @@ footer {
 }
 /* Products Page Styling */
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+    transform: scale(1.1);
+}
+
+.product-info {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.product-info h3 {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 5px;
+}
