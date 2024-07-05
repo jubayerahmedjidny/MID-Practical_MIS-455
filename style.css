@@ -98,6 +98,13 @@ main {
     padding: 20px;
 }
 
+.font2 {
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .contact-info {
     background-color: #fff;
     padding: 20px;
